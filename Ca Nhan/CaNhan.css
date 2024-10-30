@@ -1,0 +1,78 @@
+.head{
+    width: 100%;
+    margin: 0 auto;
+    background: url(./img/top-bar.png) #da2127 no-repeat;
+    background-size: cover;
+}
+  
+.head .top-menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+  
+.head .navbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: 0px;
+}
+.head .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--SVN-gilroy-12-12px-regular-font-family);
+    font-weight: var(--SVN-gilroy-12-12px-regular-font-weight);
+    color: #FFFFFF;
+    font-size: var(--SVN-gilroy-12-12px-regular-font-size);
+    letter-spacing: var(--SVN-gilroy-12-12px-regular-letter-spacing);
+    line-height: var(--SVN-gilroy-12-12px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--SVN-gilroy-12-12px-regular-font-style);
+}
+.tm-kim {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+    color: var(--base-colorwhite);
+}
+  
+.tm-kim input.search {
+    width: 260px;
+    border: 1px solid var(--base-colorwhite);
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("../img/search-normal.svg") no-repeat 13px;
+    border-radius: 25px;
+    background-size: 20px;
+}
+  
+.tm-kim input.search::placeholder {
+    color: var(--base-colorwhite);
+    font-family: var(--SVN-gilroy-12-12px-regular-font-family);
+    font-weight: var(--SVN-gilroy-12-12px-regular-font-weight);
+    font-size: var(--SVN-gilroy-12-12px-regular-font-size);
+    letter-spacing: var(--SVN-gilroy-12-12px-regular-letter-spacing);
+    line-height: var(--SVN-gilroy-12-12px-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--SVN-gilroy-12-12px-regular-font-style);
+  }
+  
+.tm-kim input:focus {
+    outline: none;
+}
+  
+.tm-kim img {
+    filter: brightness(0) invert(1);
+}
+  
+.tm-kim .hide {
+    display: none !important;
+}
+  

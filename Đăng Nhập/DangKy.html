@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VietinBank iPay - Đăng Ký</title>
+    <link rel="stylesheet" href="DangKy.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">VietinBank <span class="ipay">iPay</span></div>
+        <div class="support-info">
+            <span class="support-text">Số điện thoại hỗ trợ: 1900 558 868</span>
+            <img src="Image/VietNam.svg" alt="Cờ Việt Nam" class="flag-icon">
+        </div>
+    </header>
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Đăng ký tài khoản mới</h2><br>
+            <form class="signup-form" action="">
+                <input type="text" id="signup-username" placeholder="Tên đăng nhập" class="signup-input" required>
+                <input type="password" id="signup-password" placeholder="Mật khẩu" class="signup-input" required>
+                <input type="email" id="signup-email" placeholder="Email" class="signup-input" required>
+                <input type="text" id="signup-phone" placeholder="Số điện thoại" class="signup-input" required>
+                <button type="submit" class="signup-btn" onclick="CheckSignUp()">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="#">Về VietinBank</a>
+            <a href="#">Chính sách bảo mật</a>
+            <a href="#">Tải VietinBank iPay</a>
+            <div class="footer-icons">
+                <img src="Image/5010821492149-Android.svg" alt="Android Icon">
+                <img src="Image/1720821492149-Apple.svg" alt="Apple Icon">
+            </div>
+        </div>
+        <div class="footer-right">
+            © Bản quyền thuộc về Ngân Hàng TMCP Công Thương Việt Nam
+        </div>
+    </footer>
+    <script src="DangKy.js"></script>
+</body>
+</html>
