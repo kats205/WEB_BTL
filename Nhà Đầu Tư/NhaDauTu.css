@@ -102,6 +102,7 @@ h1 {
     background-image: url('Image/image4.png');
     padding: 5px 5px;
     gap: 30px;
+    background-size: cover;
 }
 
 .navbar a {
