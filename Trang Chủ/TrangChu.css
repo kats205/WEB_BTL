@@ -75,17 +75,15 @@
     background-image: url('trangchu/image.webp'); 
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 110px);
+    height: 604px;
     color: white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    position: relative;
+    position: absolute;
     width: 100%;
     padding-left: 50px;
     padding-top: 140px;
-    margin: 0;
-
 }
 
 .promo-content {
@@ -154,6 +152,8 @@
     gap: 70px;
     padding: 20px 10px;
     background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+    margin-top: 366px;
 }
 
 .main-links a {

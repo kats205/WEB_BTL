@@ -93,12 +93,13 @@
     background-image: url('image/Quet&Hoan.webp'); 
     background-size: cover;
     background-position: center;
-    min-height: 100vh; 
+    height: 100vh; 
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    position: relative;
+    position: absolute;
+    width: 100%;
     padding-top: 140px; 
     padding-right: 760px;
 }
@@ -142,6 +143,7 @@
     max-width: 1200px;
     margin: 0 auto;
     flex-wrap: nowrap;
+    margin-top: 550px;
 }
 
 .service-item {
