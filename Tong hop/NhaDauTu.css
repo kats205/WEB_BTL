@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0f3ff;
+}
+
+.header {
+    background-color: #74d4ec;
+    text-align: center;
+    position: relative;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.search-language {
+    display: flex;
+    align-items: center;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.search-bar {
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #999;
+}
+
+.search-button {
+    padding: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Image/home2023.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.welcome-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    max-width: 400px; 
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute; 
+    top: 150px; 
+    right: 20px; 
+}
+.welcome-box h2 {
+    font-size: 22px;
+    color: #005bac;
+    margin-top: 120px;
+    text-align: right;
+    line-height: 1.6;
+}
+
+.welcome-box p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: right;
+    color:#005bac;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    color: #575e66;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url('Image/image4.png');
+    padding: 5px 5px;
+    gap: 30px;
+    background-size: cover;
+}
+
+.navbar a {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #005fa1;
+}
+
+
+.navigation-icons {
+    display: flex;
+    justify-content: center;
+    background-color: #e6f2ff; 
+    padding: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    margin: 30px;
+}
+
+.icon-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.icon-item p {
+    font-size: 14px;
+    color: #005bac;
+    font-weight: bold;
+}
+.additional-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e0f3ff;
+}
+
+.info-box {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 32%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    border: 1px solid #6d8db3;
+    margin-bottom: 20px;
+}
+.info-box h3 {
+    font-size: 16px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+.info-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.info-box td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.blue {
+    color:#005bac;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links img {
+    width: 180px;
+    height: auto;
+}
+.image-carousel {
+    position: relative;
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    height: 200px; /* Điều chỉnh chiều cao cho phù hợp */
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Hiệu ứng chuyển động mượt mà */
+}
+
+.carousel-image {
+    display: none; /* Ẩn tất cả hình ảnh */
+}
+
+.carousel-image.active {
+    display: block; /* Hiện hình ảnh đang hoạt động */
+}
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #74d4ec;
+    color: rgb(4, 47, 235);
+    font-size: 16px;
+}
